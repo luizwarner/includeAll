@@ -7,6 +7,9 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-min.css">
+        <link rel="stylesheet" type="text/css" href="css/themes/includeAll.css">
+        <link rel="stylesheet" type="text/css" href="css/themes/includeAll.min.css">
+        <link rel="stylesheet" type="text/css" href="css/themes/jquery.mobile.icons.min.css">
         <title>Blank App Designer Cordova Web App Project Template</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
@@ -63,6 +66,8 @@
         <!-- normalizes device and document ready events, see file for details -->
         <script type="application/javascript" src="lib/jquery.min.js"></script>
         <script type="application/javascript" src="jqm/jquery.mobile-min.js" data-ver="0"></script>
+        <script type="application/javascript" src="js/index_user_scripts.js"></script>
+        <script type="application/javascript" src="xdk/ad/jqm_subpage.js"></script>
     </head>
 
     <body>
@@ -78,23 +83,37 @@
                             <div class="widget-container left-receptacle"></div>
                             <div class="widget-container right-receptacle"></div>
                             <div>
-                                <p>Include All</p>
+                                <p>Bem Estar</p>
                             </div>
                         </div>
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col left"></div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_16_32">
                     <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
                         <ul data-role="listview">
-                            <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0"><span>Bem Estar</span>
+                            <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-icon="carat-r"><a href="#pagina_bem_estar"><span>Bem Estar</span></a>
                             </li>
                             <li class="widget uib_w_5" data-uib="jquery_mobile/listitem" data-ver="0"><span>Saúde Física</span>
                             </li>
                             <li class="widget uib_w_6" data-uib="jquery_mobile/listitem" data-ver="0"><span>Saiba Mais</span>
                             </li>
                             <li class="widget uib_w_7" data-uib="jquery_mobile/listitem" data-ver="0"><span>Conheça-nos</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="pagina_bem_estar" class="upage-content vertical-col left hidden">
+                    <div class="widget uib_w_8 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
+                        <ul data-role="listview">
+                            <li class="widget uib_w_9" data-uib="jquery_mobile/listitem" data-ver="0"><span>Listitem</span>
+                            </li>
+                            <li class="widget uib_w_10" data-uib="jquery_mobile/listitem" data-ver="0"><span>Listitem</span>
+                            </li>
+                            <li class="widget uib_w_12" data-uib="jquery_mobile/listitem" data-ver="0"><span>Listitem</span>
+                            </li>
+                            <li class="widget uib_w_11" data-uib="jquery_mobile/listitem" data-ver="0"><span>Listitem</span>
                             </li>
                         </ul>
                     </div>
